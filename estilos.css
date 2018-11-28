@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1000px;
+    width: 70%;
+    /* background: #000; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 17px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.btn-primary {
+    background: #1b2268;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+}
